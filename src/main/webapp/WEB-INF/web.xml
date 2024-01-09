@@ -3,4 +3,12 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd"
          version="5.0">
+    <servlet>
+        <servlet-name>Weath</servlet-name>
+        <servlet-class>com.maxijj.servlet.Weath</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Weath</servlet-name>
+        <url-pattern>/weath</url-pattern>
+    </servlet-mapping>
 </web-app>
